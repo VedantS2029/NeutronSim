@@ -1,0 +1,26 @@
+[project]
+name = "neutronsim"
+version = "0.1.0"
+description = "Educational neutron-nucleus reaction model: evaluated data, probabilistic, traceable"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest", "endf"]   # 'endf' is used only for an independent parser cross-check
+
+[project.scripts]
+neutronsim = "neutronsim.cli:main"
+
+[project.gui-scripts]
+neutronsim-gui = "neutronsim.gui:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

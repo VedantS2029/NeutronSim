@@ -1,0 +1,297 @@
+{
+  "note": "Reference points typed from memory (approximately AME2020/NUBASE values, good to ~0.01-0.1 MeV). NOT read from a database in this environment (no network). Verify against AME2020 before citing. Used only to measure how far the semi-empirical model is off.",
+  "binding_energy_MeV": [
+    {
+      "iso": "He-4",
+      "Z": 2,
+      "N": 2,
+      "B": 28.296
+    },
+    {
+      "iso": "C-12",
+      "Z": 6,
+      "N": 6,
+      "B": 92.162
+    },
+    {
+      "iso": "O-16",
+      "Z": 8,
+      "N": 8,
+      "B": 127.619
+    },
+    {
+      "iso": "Fe-56",
+      "Z": 26,
+      "N": 30,
+      "B": 492.254
+    },
+    {
+      "iso": "Ni-62",
+      "Z": 28,
+      "N": 34,
+      "B": 545.259
+    },
+    {
+      "iso": "Sn-120",
+      "Z": 50,
+      "N": 70,
+      "B": 1020.5
+    },
+    {
+      "iso": "Pb-208",
+      "Z": 82,
+      "N": 126,
+      "B": 1636.43
+    },
+    {
+      "iso": "U-235",
+      "Z": 92,
+      "N": 143,
+      "B": 1783.87
+    },
+    {
+      "iso": "U-238",
+      "Z": 92,
+      "N": 146,
+      "B": 1801.7
+    }
+  ],
+  "decay_Q_MeV": [
+    {
+      "iso": "H-3",
+      "Z": 1,
+      "N": 2,
+      "mode": "beta-",
+      "Q": 0.0186
+    },
+    {
+      "iso": "C-14",
+      "Z": 6,
+      "N": 8,
+      "mode": "beta-",
+      "Q": 0.156
+    },
+    {
+      "iso": "K-40",
+      "Z": 19,
+      "N": 21,
+      "mode": "beta-",
+      "Q": 1.311
+    },
+    {
+      "iso": "Co-60",
+      "Z": 27,
+      "N": 33,
+      "mode": "beta-",
+      "Q": 2.824
+    },
+    {
+      "iso": "Sr-90",
+      "Z": 38,
+      "N": 52,
+      "mode": "beta-",
+      "Q": 0.546
+    },
+    {
+      "iso": "I-131",
+      "Z": 53,
+      "N": 78,
+      "mode": "beta-",
+      "Q": 0.971
+    },
+    {
+      "iso": "Cs-137",
+      "Z": 55,
+      "N": 82,
+      "mode": "beta-",
+      "Q": 1.176
+    },
+    {
+      "iso": "F-18",
+      "Z": 9,
+      "N": 9,
+      "mode": "EC",
+      "Q": 1.656
+    },
+    {
+      "iso": "Na-22",
+      "Z": 11,
+      "N": 11,
+      "mode": "EC",
+      "Q": 2.842
+    },
+    {
+      "iso": "Co-56",
+      "Z": 27,
+      "N": 29,
+      "mode": "EC",
+      "Q": 4.566
+    },
+    {
+      "iso": "Th-232",
+      "Z": 90,
+      "N": 142,
+      "mode": "alpha",
+      "Q": 4.082
+    },
+    {
+      "iso": "U-235",
+      "Z": 92,
+      "N": 143,
+      "mode": "alpha",
+      "Q": 4.678
+    },
+    {
+      "iso": "U-238",
+      "Z": 92,
+      "N": 146,
+      "mode": "alpha",
+      "Q": 4.27
+    },
+    {
+      "iso": "Ra-226",
+      "Z": 88,
+      "N": 138,
+      "mode": "alpha",
+      "Q": 4.871
+    },
+    {
+      "iso": "Po-210",
+      "Z": 84,
+      "N": 126,
+      "mode": "alpha",
+      "Q": 5.407
+    },
+    {
+      "iso": "Pu-239",
+      "Z": 94,
+      "N": 145,
+      "mode": "alpha",
+      "Q": 5.245
+    },
+    {
+      "iso": "Am-241",
+      "Z": 95,
+      "N": 146,
+      "mode": "alpha",
+      "Q": 5.638
+    }
+  ],
+  "stable_nuclides": [
+    "He-4",
+    "C-12",
+    "O-16",
+    "Ca-40",
+    "Fe-56",
+    "Ni-62",
+    "Sn-120",
+    "Pb-208"
+  ],
+  "atomic_mass_u": [
+    {
+      "iso": "H-1",
+      "Z": 1,
+      "N": 0,
+      "m": 1.00782503
+    },
+    {
+      "iso": "H-2",
+      "Z": 1,
+      "N": 1,
+      "m": 2.01410178
+    },
+    {
+      "iso": "He-4",
+      "Z": 2,
+      "N": 2,
+      "m": 4.00260325
+    },
+    {
+      "iso": "C-12",
+      "Z": 6,
+      "N": 6,
+      "m": 12.0
+    },
+    {
+      "iso": "N-14",
+      "Z": 7,
+      "N": 7,
+      "m": 14.003074
+    },
+    {
+      "iso": "O-16",
+      "Z": 8,
+      "N": 8,
+      "m": 15.99491462
+    },
+    {
+      "iso": "Fe-56",
+      "Z": 26,
+      "N": 30,
+      "m": 55.93493633
+    },
+    {
+      "iso": "Ni-62",
+      "Z": 28,
+      "N": 34,
+      "m": 61.92834537
+    },
+    {
+      "iso": "Pb-208",
+      "Z": 82,
+      "N": 126,
+      "m": 207.9766521
+    },
+    {
+      "iso": "U-235",
+      "Z": 92,
+      "N": 143,
+      "m": 235.0439299
+    },
+    {
+      "iso": "U-238",
+      "Z": 92,
+      "N": 146,
+      "m": 238.0507882
+    }
+  ],
+  "thermal_capture_barn": {
+    "note": "Thermal (0.0253 eV) radiative-capture (n,gamma) cross sections of the TARGET isotope, in barn, typed from memory (BNL-325/Sears-type values, good to a few %). NOT read from a database. Cd-113 and Gd-157 are kept on purpose: they have a huge resonance next to thermal energy, which no average model can predict.",
+    "values": {
+      "H-2": 0.000519,
+      "C-12": 0.00353,
+      "N-14": 0.0749,
+      "O-16": 0.00019,
+      "F-19": 0.0096,
+      "Na-23": 0.53,
+      "Mg-24": 0.0538,
+      "Al-27": 0.231,
+      "Si-28": 0.177,
+      "P-31": 0.172,
+      "S-32": 0.53,
+      "Cl-35": 43.6,
+      "Ca-40": 0.41,
+      "Sc-45": 27.2,
+      "Ti-48": 7.84,
+      "V-51": 4.9,
+      "Cr-52": 0.76,
+      "Mn-55": 13.3,
+      "Fe-56": 2.59,
+      "Co-59": 37.2,
+      "Ni-58": 4.2,
+      "Cu-63": 4.5,
+      "Zn-64": 0.76,
+      "Ag-107": 37.6,
+      "Ag-109": 91.0,
+      "In-115": 202.0,
+      "Au-197": 98.7,
+      "W-186": 37.9,
+      "Pb-208": 0.00049,
+      "Bi-209": 0.0338,
+      "Th-232": 7.37,
+      "U-238": 2.68,
+      "Cd-113": 20600.0,
+      "Gd-157": 254000.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "description": "Published thermal (2200 m/s) absorption cross sections used as external reference cases.",
+  "energy_definition": "E = 1/2 * m_n * v^2 with v = 2200 m/s, m_n = 1.67492749804e-27 kg (CODATA 2018), 1 eV = 1.602176634e-19 J  ->  0.0252989 eV",
+  "quantity": "absorption = sum of the evaluated MT18 (fission) and MT102-MT117 (capture and charged-particle) channels present in the data",
+  "agreement_rule": "AGREES if |evaluated - reference| <= k * u_ref (k = 3, reference uncertainty only; evaluation uncertainty is not propagated). DISCREPANT if larger but within gross_error_bound_rel. FAIL beyond that bound.",
+  "gross_error_bound_rel": 0.02,
+  "gross_error_bound_meaning": "Catches parsing/processing errors only. It is NOT a physics-accuracy claim.",
+  "k": 3,
+  "reference": {
+    "citation": "V. F. Sears, 'Neutron scattering lengths and cross sections', Neutron News 3(3), 26-37 (1992)",
+    "retrieved_from": "https://ncnr.nist.gov/resources/n-lengths/list.html (NIST Center for Neutron Research, column 'absorption cross section for 2200 m/s neutrons')",
+    "caveat": "The NIST page states the values were entered by hand from the paper and may contain errors. Only values with a quoted uncertainty are used."
+  },
+  "cases": [
+    {"id": "B-10_absorption_2200", "isotope": "B-10", "value_b": 3835.0, "u_b": 9.0, "expected_status": "AGREES"},
+    {"id": "Al-27_absorption_2200", "isotope": "Al-27", "value_b": 0.231, "u_b": 0.003, "expected_status": "AGREES"},
+    {"id": "Ag-109_absorption_2200", "isotope": "Ag-109", "value_b": 91.0, "u_b": 1.0, "expected_status": "AGREES"},
+    {"id": "U-235_absorption_2200", "isotope": "U-235", "value_b": 680.9, "u_b": 1.1, "expected_status": "DISCREPANT",
+     "known_discrepancy_note": "Evaluated value is ~0.8% above the 1992 compilation (about 4.8 sigma of its stated uncertainty). Possible causes (NOT verified here): later evaluation incorporating new standards/CIELO work vs a 1992 compilation; 0 K vs room-temperature definition. Reported, not hidden; a newer reference (e.g. ENDF/B-VIII.0 standards thermal constants, Carlson et al., Nucl. Data Sheets 148, 143 (2018), Sec. 3.3) was not retrieved."}
+  ]
+}

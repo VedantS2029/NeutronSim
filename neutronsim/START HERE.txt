@@ -1,0 +1,13 @@
+NEUTRON SIM - how to open it (no commands needed)
+
+WINDOWS:  double-click   "Neutron Sim.bat"
+MAC:      double-click   "Neutron Sim.command"
+            First time only: if the Mac says it can't be opened, RIGHT-CLICK the file,
+            choose Open, then click Open.
+
+You need Python 3.10 or newer installed once (free, https://www.python.org/downloads/).
+On Windows tick "Add python.exe to PATH" in the installer. If Python is missing,
+the launcher tells you and opens the download page.
+
+The wizard opens. Box test and the periodic-table explorer are in the Tools menu / on the pages.
+If something goes wrong a message box explains it and details go to neutronsim-error.log.
